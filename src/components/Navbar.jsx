@@ -61,12 +61,12 @@ const Navbar = () => {
                                 </a>
                             </li>
                             <li className="contact-us-li">
-                                <a href="mailto:techlodge2025@gmail.com" className="">
-                                    <button className="nav-pry-btn-2 btn pointer">For FSTC Students</button>
+                                <a href="https://forms.gle/LsrCSdAVVJ83CNhv7" target="_blank" rel="noopener noreferrer">
+                                    <button className="nav-pry-btn-2 btn pointer">Consultations For FSTC Students</button>
                                 </a>
                             </li>
                             <li className="contact-us-li">
-                                <a href="mailto:techlodge2025@gmail.com" className="">
+                                <a href="https://forms.gle/kazvbvz7PGuPw3af9">
                                     <button className="nav-pry-btn btn pointer">Book Your Free Consultation Now</button>
                                 </a>
                             </li>
@@ -102,8 +102,13 @@ const Navbar = () => {
                     </a>
                 </li>
                 {/* <li className="contact-us-li">
-                    <a href="mailto:techlodge2025@gmail.com" className="sidenav-close">
-                        <button className="nav-pry-btn-2 btn pointer">Contact Us</button>
+                    <a href="https://forms.gle/LsrCSdAVVJ83CNhv7" target="_blank" rel="noopener noreferrer">
+                        <button className="nav-pry-btn-2 btn pointer">Consultations For FSTC Students</button>
+                    </a>
+                </li>
+                <li className="contact-us-li">
+                    <a href="https://forms.gle/kazvbvz7PGuPw3af9">
+                        <button className="nav-pry-btn btn pointer">Book Your Free Consultation Now</button>
                     </a>
                 </li> */}
             </ul>

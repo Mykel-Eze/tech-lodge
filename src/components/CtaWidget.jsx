@@ -19,7 +19,7 @@ const CtaWidget = () => {
                         <p>
                             Ready to discuss how Tech Lodge can help your business or school?
                         </p>
-                        <a href="mailto:techlodge2025@gmail.com" className="cta-btn hover-scale">Book Your Free Consultation Now</a>
+                        <a href="https://forms.gle/kazvbvz7PGuPw3af9" className="cta-btn hover-scale">Book Your Free Consultation Now</a>
                     </div>
                 </div>
             </div>
