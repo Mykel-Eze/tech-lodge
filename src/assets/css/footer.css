@@ -1,0 +1,77 @@
+footer {
+    background: #000;
+    color: rgba(252, 252, 252, 0.7);
+    font-size: 14px;
+    padding: 40px 0 24px;
+    margin-top: 70px;
+    position: relative;
+}
+footer::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 60%;
+    left: 0;
+    bottom: 0;
+    background: url(../images/wave.svg);
+    background-size: 100%;
+    background-position: -150%;
+    background-repeat: no-repeat;
+}
+footer li a {
+    color: rgba(252, 252, 252, 0.7);
+    font-size: 14px;
+}
+footer li a:hover {
+    color: rgba(252, 252, 252, 1);
+}
+img.footer-logo {
+    width: 160px;
+}
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.footer-block h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: normal;
+}
+.footer-block ul li {
+    margin: 8px 0;
+}
+.footer-block ul li.flex-div {
+    gap: 5px;
+}
+.footer-block img.footer-icon {
+    width: 20px;
+    opacity: 0.7;
+}
+.copyright-div {
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin-top: 80px;
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 600px) {
+    footer::before {
+        height: 80%;
+        background-position: bottom;
+        background-size: cover;
+    }
+    .footer-wrapper {
+        grid-template-columns: 100%;
+    }
+    .copyright-div {
+        margin-top: 40px;
+    }
+    .footer-block.footer-logo-div {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

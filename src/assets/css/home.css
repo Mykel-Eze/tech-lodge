@@ -1,0 +1,356 @@
+/*---=== Landing Section ===---*/
+header#home {
+    width: 100%;
+    height: 99vh;
+    position: relative;
+    min-height: 620px;
+}
+header#home::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: url(../images/wave.svg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+header#home > .container.flex-div {
+    display: flex;
+    align-items: center;
+}
+.second-container.flex-div {
+    flex-direction: column;
+    gap: 25px;
+    margin: 50px auto;
+    justify-content: center;
+    font-size: 24px;
+}
+.header-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+.header-img-side {
+    text-align: right;
+}
+.header-img-side img {
+    width: 100%;
+    /* background-color: #fefefe; */
+    /* border-radius: 40px; */
+}
+.header-txt-side h1  {
+    font-size: 64px;
+    font-family: var(--font-bold);
+}
+.header-txt-side p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.cta-btn {
+    font-size: 16px;
+    padding: 15px 35px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+@media(max-width: 992px) {
+    .header-txt-side h1 {
+        font-size: 52px;
+    }
+}
+
+@media(max-width: 600px) {
+    header#home {
+        height: auto;
+        padding: 100px 0;
+    }
+    .header-txt-side {
+        text-align: center;
+    }
+    .header-txt-side h1 {
+        font-size: 45px;
+    }
+    .header-content-wrapper {
+        grid-template-columns: 100%;
+        gap: 30px;
+    }
+    .header-img-side img {
+        width: 100%;
+    }
+    .second-container.flex-div {
+        font-size: 18px;
+    }
+}
+/*---=== end of Landing Section ===---*/
+
+/*---=== About Section ===---*/
+section#about {
+    position: relative;
+    padding: 50px 0;
+    font-size: 20px;
+}
+section#about::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url(../images/wave-2.svg);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+h2.section-title {
+    font-size: 52px;
+    font-family: var(--font-bold);
+}
+h4.sub-section-title {
+    font-size: 28px;
+    font-family: var(--font-smbold);
+    letter-spacing: -1px;
+}
+.about-grid-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+.about-img-side img {
+    border-radius: 8px;
+}
+ul.vlaues-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    margin: 20px 0;
+}
+ul.vlaues-list > li {
+    color: white;
+    font-size: 14px;
+    padding: 12px 30px;
+    border-radius: 6px;
+}
+
+@media(min-width: 993px) {
+    .just-txt {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {
+    section#about {
+        padding: 50px 0 0;
+    }
+    h2.section-title {
+        font-size: 38px
+    }
+    h4.sub-section-title {
+        font-size: 22px;
+    }
+    .about-grid-block {
+        grid-template-columns: 100%;
+        gap: 25px;
+    }
+    .about-txt-side {
+        order: 2;
+    }
+    .about-txt-side h2.section-title {
+        margin-top: 0;
+    }
+}
+/*---=== end of About Section ===---*/
+
+/*---=== Services Section ===---*/
+section#services {
+    position: relative;
+    padding: 50px 0;
+}
+section#services::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: url(../images/wave.svg);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.services-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}
+.services-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px 0px rgba(251, 251, 251, 0.5);
+    border: 1px solid #1e0101;
+}
+.services-block > div {
+    padding: 25px 60px;
+}
+.services-block-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 0px;
+    font-size: 40px;
+    font-family: var(--font-bold);
+    line-height: 1;
+    background-color: white;
+    color: black;
+    position: relative;
+}
+.services-block-header > * {
+    position: relative;
+}
+.services-block-header::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../images/doddle.jpg);
+    background-size: 100px;
+    background-repeat: repeat;
+    opacity: 0.2;
+}
+.services-block-header img{
+    width: 100px;
+}
+.services-block-body {
+    font-size: 18px;
+    position: relative;
+}
+.services-block-body > * {
+    position: relative;
+}
+.services-block-body::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../images/doddle-2.jpg);
+    background-size: 100px;
+    background-repeat: repeat;
+    opacity: 0.15;
+}
+.services-block-body ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    margin: 20px 0;
+}
+.services-block-body ul > li {
+    color: white;
+    font-size: 14px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    color: black;
+}
+section#services h4.sub-section-title {
+    font-size: 24px;
+}
+
+@media(min-width: 993px) {
+    .services-block:nth-child(even) .services-block-header {
+        order: 2;
+    }
+}
+
+@media(max-width: 992px) {
+    .services-block {
+        grid-template-columns: 100%;
+    }
+    .services-block-intro.center {
+        text-align: left;
+    }
+}
+
+@media(max-width: 600px) {
+    .services-block>div {
+        padding: 15px 30px;
+    }
+}
+/*---=== end of Services Section ===---*/
+
+/*---=== Testimonies Section ===---*/
+section#testimonials {
+    position: relative;
+    padding: 50px 0;
+}
+section#testimonials::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url(../images/wave-2.svg);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.testimony-block {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.testimonials-wrapper {
+    margin: 30px auto 15px;
+    width: 90%;
+}
+.testimony-block img {
+    width: 80px;
+    border-radius: 50%;
+}
+.testimony-block blockquote {
+    border-left: 5px solid white;
+    font-size: 20px;
+}
+.testimony-block blockquote div.testifier {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 15px;
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {
+    .testimonials-wrapper {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .testimony-block {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+/*---=== end of Testimonies Section ===---*/
