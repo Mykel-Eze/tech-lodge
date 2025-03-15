@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import "../assets/css/home.css"
 
 import CtaWidget from "../components/CtaWidget";
+import CtaBtnWrapper from '../components/CtaBtnWrapper';
 
 const Home = () => {
     useEffect(() => {
@@ -20,7 +21,7 @@ const Home = () => {
                         <div className="header-txt-side" data-aos="fade-right">
                             <h1>Tech Solutions That Build Your Future</h1>
                             <p>Custom Software Development • IT Training • Business Consulting</p>
-                            <a href="https://forms.gle/kazvbvz7PGuPw3af9" className="cta-btn hover-scale">Book Your Free Consultation Now</a>
+                            <CtaBtnWrapper />
                         </div>
                         <div className="header-img-side" data-aos="fade-left">
                             <img src={require("../assets/images/hero-vector-2.svg").default} alt="home" />
@@ -37,7 +38,7 @@ const Home = () => {
                         the evolving technological landscape.
                     </p>
                 </div>
-                <a href="https://forms.gle/kazvbvz7PGuPw3af9" className="cta-btn hover-scale">Book Your Free Consultation Now</a>
+                <CtaBtnWrapper />
             </div>
 
             <section id="about">
