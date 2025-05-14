@@ -306,6 +306,10 @@ nav .brand-logo {
         height: 60px;
     }
 
+    a.brand-logo img {
+        width: 100px;
+    }
+
     ul#nav-mobile-2 button.nav-pry-btn-2.btn {
         min-width: auto;
         margin-right: 0;
@@ -317,6 +321,10 @@ nav .brand-logo {
 
     .footer-content-block {
         padding: 0;
+    }
+
+    nav.main-nav ul#nav-mobile-2 {
+        top: 10px;
     }
 }
 
