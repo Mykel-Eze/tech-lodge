@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className="footer-wrapper">
                     <div className="footer-block footer-logo-div">
                         <a href="/">
-                            <img src={require("../assets/images/logo-white.png")} alt="Tech Lodge" className="footer-logo" />
+                            <img src={require("../assets/images/techlodge-logo.png")} alt="Tech Lodge" className="footer-logo" />
                         </a>
                     </div>
                     <div class="footer-block">

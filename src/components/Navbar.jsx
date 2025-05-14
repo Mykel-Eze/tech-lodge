@@ -28,7 +28,7 @@ const Navbar = () => {
                 <div className="container">
                     <div className="nav-wrapper">
                         <a href="/" className="brand-logo">
-                            <img src={require("../assets/images/logo-white.png")} alt="Tech Lodge" className="logo" />
+                            <img src={require("../assets/images/techlodge-logo.png")} alt="Tech Lodge" className="logo" />
                         </a>
 
                         <ul className="dn-mobile ul-nav" id="nav-mobile-2">
@@ -78,7 +78,7 @@ const Navbar = () => {
             <ul id="slide-out" className="sidenav">
                 <div className="sidenav-logo">
                     <a href="/" className="sidenav-close">
-                        <img src={require("../assets/images/logo-white.png")} alt="Tech Lodge" className="logo" />
+                        <img src={require("../assets/images/techlodge-logo.png")} alt="Tech Lodge" className="logo" />
                     </a>
                 </div>
                 <li>

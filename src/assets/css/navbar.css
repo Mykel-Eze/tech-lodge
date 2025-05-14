@@ -88,7 +88,7 @@ nav .brand-logo {
 }
 
 a.brand-logo img {
-    width: 140px;
+    width: 100px;
     position: relative;
     top: 10px;
 }
@@ -100,8 +100,8 @@ nav.scrolled-nav.main-nav ul#nav-mobile-2 {
 
 nav.scrolled-nav a.brand-logo img {
     width: auto;
-    height: 60px;
-    /* top: 0; */
+    height: 70px;
+    top: 5px;
 }
 
 nav.scrolled-nav .brand-logo {
@@ -182,6 +182,9 @@ nav .nav-wrapper {
     justify-content: space-between;
     align-items: center;
 }
+/* nav:not(.scrolled-nav) .nav-wrapper {
+    top: -20px;
+} */
 
 nav .brand-logo {
     position: relative;
